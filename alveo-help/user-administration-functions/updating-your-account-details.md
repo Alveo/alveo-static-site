@@ -10,7 +10,7 @@ Alveo provides only limited functions for updating your account details.
 To Update Your Account Details…
 
 - **Click** on your email address at the right end of the Alveo Navigation Bar to display the dropdown menu.  
-    ![ManageAccountDetails](assets/files/2014/08/ManageAccountDetails.png)
+    ![ManageAccountDetails](/assets/files/2014/08/ManageAccountDetails.png)
 - **Click** on **My Account**, to see the menu shown here on the right.
 - **Click** on **Edit Account Details** to change the name that is recorded against your Alveo account.
 - **Click** on **Change Account Password** to change the password that you use for accessing Alveo. You will need to enter your existing password correctly for Alveo to accept the change.

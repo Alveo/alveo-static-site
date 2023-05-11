@@ -18,7 +18,7 @@ To gain access to Collections…
 - **Click** on any Collection name in this dialog to see information about that Collection. In some cases, the name represents a Collection List and is shown as a button. Clicking on the Collection List button will take you to a dialog in which you can view the details of the individual Collections within this Collection List. However, the licence still applies to the entire Collection List. Return to the **Review and Acceptance of Licence Terms** dialog to accept the licence terms.
 - **Click** on Preview &amp; Accept Licence Terms to accept a Collection’s licence and gain access to that collection. Access is granted immediately.
 
-![RequestCollectionAccess](assets/files/2014/07/RequestCollectionAccess.png)
+![RequestCollectionAccess](/assets/files/2014/07/RequestCollectionAccess.png)
 
 To request access to a Collection requiring manual licence approval…
 

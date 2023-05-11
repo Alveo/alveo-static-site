@@ -5,7 +5,7 @@ author: peterr
 layout: page
 ---
 
-Access to the important functions for maintaining your Alveo User Details are provided by clicking on your email address, which is always displayed at the right hand end of the Navigation Bar.[![AdminMenu](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/08/AdminMenu.png)](assets/files/2014/08/AdminMenu.png)
+Access to the important functions for maintaining your Alveo User Details are provided by clicking on your email address, which is always displayed at the right hand end of the Navigation Bar.[![AdminMenu](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/08/AdminMenu.png)](/assets/files/2014/08/AdminMenu.png)
 
 This menu provides access to the following functions.
 

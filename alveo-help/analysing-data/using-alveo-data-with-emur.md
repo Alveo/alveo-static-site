@@ -45,9 +45,7 @@ To Access Alveo Data in EMU/R…
 - **Launch** the R environment on your computer (independently from Alveo).
 - **Paste** the clipboard text into the R console window. You may need to press Enter to get the last command to execute.
 
-
-
-[![EMUDialog](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/08/EMUDialog.png)](assets/files/2014/08/EMUDialog.png)
+![EMUDialog](/assets/files/2014/08/EMUDialog.png)
 
 - Your Item List Documents will appear in your R environment as a data structure under the item\_list variable.
 - The API Key only needs to be exported once, unless you have subsequently regenerated your API Key.

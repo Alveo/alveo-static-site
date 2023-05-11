@@ -9,7 +9,7 @@ New Item Lists can be created by clicking **Discover** in the Navigation Bar and
 
 When you click on **Item List** in the Navigation Bar, all Item Lists available to you are shown in the left of the Item List screen.
 
-![ItemLists](assets/files/2014/07/ItemLists.png)
+![ItemLists](/assets/files/2014/07/ItemLists.png)
 
 ## **Shared Item Lists**
 
@@ -25,7 +25,7 @@ Whenever you view a Shared Item List, you will be shown only those Items from Co
 
 Stopping sharing an Item List is just the reverse process.
 
-![SharingItemLists](assets/files/2014/07/SharingItemLists.png)
+![SharingItemLists](/assets/files/2014/07/SharingItemLists.png)
 
  **To Stop Sharing your own Item List…**
 

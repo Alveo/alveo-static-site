@@ -16,7 +16,7 @@ Galaxy is used for some Alveo data analysis functions. For these functions to wo
 
 
 
-![GalaxyLogin](assets/files/2014/07/GalaxyLogin.png)
+![GalaxyLogin](/assets/files/2014/07/GalaxyLogin.png)
 
 There is generally no need to log out from Galaxy / Alveo, unless you are using a shared computer.
 

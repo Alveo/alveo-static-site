@@ -19,7 +19,7 @@ For example, I might download some audio files from the Austalk collection and c
 
 To create a contribution, click on the [Contribution](https://app.alveo.edu.au/contrib) link in the navigation bar to go to the Annotation Contributions page. Click on the “Create New Contribution” button at the bottom of the list of contributions. This will take you to the form to fill in the details of your annotations.
 
-![Annotation Creation Form Screenshot](assets/files/2017/12/Screen-Shot-2017-12-01-at-4.40.33-pm-1024x761.png)
+![Annotation Creation Form Screenshot](/assets/files/2017/12/Screen-Shot-2017-12-01-at-4.40.33-pm-1024x761.png)
 
 First give your contribution a title and choose which collection your contribution will be associated with. Each contribution is linked to only one collection because the system needs to look within that collection to associate your files with existing items.
 
@@ -37,7 +37,7 @@ Your zip file should contain files with the **same base name** as an existing it
 
 Select the zip file you want to upload and click on **Upload and Preview**. This will upload your zip file to the server, unpack it and look for matches with existing files in the collection. The page will be updated to display the items and the files that have been found for you to review.
 
-![screen shot of contribution upload preview page](assets/files/2017/12/Screen-Shot-2017-12-01-at-5.18.03-pm-1024x498.png)
+![screen shot of contribution upload preview page](/assets/files/2017/12/Screen-Shot-2017-12-01-at-5.18.03-pm-1024x498.png)
 
 This preview page will show a error message if some of the files in your zip file did not match existing files in the collection. This could be because you have changed the file name in some way (eg. by adding a suffix). You can fix this by renaming your files and re-creating the zip file and then trying the upload again.
 
@@ -45,13 +45,13 @@ For files that were matched to existing items you will see details of the file a
 
 If there are no errors and you are happy with the preview, click **Proceed Import** to finalise the import of your data (this button is not enabled if there were errors in matching your files). You will then be shown the page for your contribution that will list the items and files that you have uploaded.
 
-![screen shot showing a contribution page](assets/files/2017/12/Screen-Shot-2017-12-01-at-5.30.07-pm-1024x483.png)
+![screen shot showing a contribution page](/assets/files/2017/12/Screen-Shot-2017-12-01-at-5.30.07-pm-1024x483.png)
 
 
 
 The links on this page allow you to go to the page for each item that you’ve linked an annotation file with. If you follow that link to view the item, you will see your file along with a link back to your contribution page. This enables people to see where this file came from and find the other files that you’ve uploaded.
 
-![screen shot of a file from a contribution](assets/files/2017/12/Screen-Shot-2017-12-01-at-6.13.02-pm.png)
+![screen shot of a file from a contribution](/assets/files/2017/12/Screen-Shot-2017-12-01-at-6.13.02-pm.png)
 
 From the contribution page, you can also download all of your contributed files via the **Export Zip** button.
 

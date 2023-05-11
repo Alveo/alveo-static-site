@@ -20,7 +20,7 @@ To Download an Item List as a ZIP File…
 
 The format of the downloaded Bagit ZIP file will match this example.
 
-![DownloadedZIP](assets/files/2014/08/DownloadedZIP.png)
+![DownloadedZIP](/assets/files/2014/08/DownloadedZIP.png)
 
 - The top level of the ZIP file has some .TXT files containing information files about the BAGIT format and this ZIP file in particular.
 - The JSON format stores key/value pairs. It is (somewhat) human readable, but the most convenient way to directly view it is to use a JSON plug-in for your browser. There are many available. There are also many JSON readers available for a wide variety of programming languages, which permit automatic processing of these files. The instructions for installing the R environment for EMU/R include an instruction to install a JSON reading package. Information about JSON can be found at .

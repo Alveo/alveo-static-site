@@ -25,7 +25,7 @@ def process(filename):
                 line = line.replace('</div>', '\n\n')
                 line = re.sub(link_re, r'[\1](/\2 "\3")', line)
                 line = re.sub(link_no_title_re, r'[\1](/\2)', line)
-                line = re.sub(image_re, r'![\1](assets/files/\2)', line)
+                line = re.sub(image_re, r'![\1](/assets/files/\2)', line)
                 line = re.sub(tag_re, '', line)
                 if line.startswith('id:'):
                     continue

@@ -9,7 +9,7 @@ In addition to providing you with access to public, open access corpora and data
 
 ## Obtaining access
 
-In order to be able to create collections, you must be a *Data Owner* rather than an ordinary user. If you want to request data owner status, look at the bottom of the [main collections page](https://app.alveo.edu.au/) once you are logged in, you should see the following button:![screen shot of button to request data owner status](assets/files/2017/12/Screen-Shot-2017-12-05-at-8.43.45-am-1024x164.png)
+In order to be able to create collections, you must be a *Data Owner* rather than an ordinary user. If you want to request data owner status, look at the bottom of the [main collections page](https://app.alveo.edu.au/) once you are logged in, you should see the following button:![screen shot of button to request data owner status](/assets/files/2017/12/Screen-Shot-2017-12-05-at-8.43.45-am-1024x164.png)
 
 Clicking on this button will take you to a form where you can request this change in status. You should include a little information about your collection: when and how you collected it, what sort of data it contains, what sort of data structure it has, and how large it is. The administration team may then have further questions for you, or may simply grant your request.
 

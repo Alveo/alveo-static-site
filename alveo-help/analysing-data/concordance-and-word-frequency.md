@@ -7,7 +7,7 @@ layout: page
 
 Alveo provides two functions to help you investigate word frequency and context in all of the text documents of your currently displayed Item List.
 
-[![WordContexts](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/07/WordContexts.png)](assets/files/2014/07/WordContexts.png)
+[![WordContexts](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/07/WordContexts.png)](/assets/files/2014/07/WordContexts.png)
 
 ## **Concordance**
 
@@ -23,7 +23,7 @@ To do a concordance word search…
 
 
 
-![Concordance](assets/files/2014/07/Concordance.png)
+![Concordance](/assets/files/2014/07/Concordance.png)
 
 ## **Word Frequency**
 
@@ -42,7 +42,7 @@ To list a word’s frequency…
 
 There are five Items in the “Cats and Dogs” Item List, which was used for this example.
 
-![Frequency](assets/files/2014/07/Frequency.png)
+![Frequency](/assets/files/2014/07/Frequency.png)
 
 ## **Saving These Summaries**
 

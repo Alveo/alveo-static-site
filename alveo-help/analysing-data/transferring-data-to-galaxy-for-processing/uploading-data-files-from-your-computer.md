@@ -24,7 +24,7 @@ To Upload Data Files from your Computer…
 
 
 
-![GalaxyUploadFile](assets/files/2014/08/GalaxyUploadFile.png)
+![GalaxyUploadFile](/assets/files/2014/08/GalaxyUploadFile.png)
 
 - You can do this operation whether you have launched Galaxy from Alveo, or run it independently from the  URL.
 - If you prefer, you can click Choose File in preference to dragging a file from your computer’s file explorer.

@@ -9,7 +9,7 @@ layout: page
 
 The Galaxy operation screen generally has this configuration.
 
-![GalaxyScreen](assets/files/2014/08/GalaxyScreen.png)
+![GalaxyScreen](/assets/files/2014/08/GalaxyScreen.png)
 
 You can return to this screen by clicking **Analyze Data** in the Galaxy Navigation Bar.
 
@@ -40,4 +40,4 @@ Datasets stored in Galaxy have **metadata** stored for them, including optional 
 
 There are a number of icons shown against each file in the History Panel. Some are not shown until you click on the file name to view its details. If you move your mouse over them, you will see tool-tips which explain their use. Here are few commonly used ones.
 
-![GalaxyFileIcons](assets/files/2014/08/GalaxyFileIcons.png)
+![GalaxyFileIcons](/assets/files/2014/08/GalaxyFileIcons.png)

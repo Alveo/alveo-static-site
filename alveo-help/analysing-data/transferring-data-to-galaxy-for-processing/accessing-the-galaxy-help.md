@@ -9,7 +9,7 @@ layout: page
 
 Galaxy has its own Help system, which is accessed from the Galaxy Navigation Bar.
 
-![GalaxyHelp](assets/files/2014/08/GalaxyHelp.png)
+![GalaxyHelp](/assets/files/2014/08/GalaxyHelp.png)
 
 ## **Galaxy Wiki Learning Resource**
 

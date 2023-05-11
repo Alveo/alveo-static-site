@@ -9,7 +9,7 @@ layout: page
 
 Alveo’s main screen has four important elements:
 
-![ScreenBasics](assets/files/2014/07/ScreenBasics.png)
+![ScreenBasics](/assets/files/2014/07/ScreenBasics.png)
 
 The **Navigation Bar** which includes your email address – it’s always the same, no matter what screen you’re displaying. It’s even similar before you log in, when you display the Alveo web site and for this Alveo Help.
 

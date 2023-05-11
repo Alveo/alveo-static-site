@@ -32,7 +32,7 @@ To View Your Search History for This Session…
 
 
 
-![SearchHistory](assets/files/2014/08/SearchHistory.png)
+![SearchHistory](/assets/files/2014/08/SearchHistory.png)
 
 - - Only the searches *you* have done appear on this list. Each user has their own separate search history, which cannot be shared.
     - You can see from the above list, that as you refine a search, the steps along the way are added to this search history.
@@ -46,4 +46,4 @@ To View Just the Searches You Have Saved…
 
 
 
-![SavedSearches](assets/files/2014/08/SavedSearches.png)
+![SavedSearches](/assets/files/2014/08/SavedSearches.png)

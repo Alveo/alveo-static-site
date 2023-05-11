@@ -28,7 +28,7 @@ To view your account’s API key…
 
 
 
-![APIKey](assets/files/2014/07/APIKey.png)
+![APIKey](/assets/files/2014/07/APIKey.png)
 
 When you access Galaxy from the Alveo menus, this string of characters is automatically passed to Galaxy so that it can use it to access Alveo for your data requests. To use EMU/R you need to load this API Key into the R environment. See [Using Alveo Data with EMU/R](/alveo-help/analysing-data/using-alveo-data-with-emur) for more information. This API Key can also be used by other programs which require Alveo access. Use the **Copy to Clipboard** sub-menu item to allow pasting into other applications, or the **Download API Key** sub-menu item to download a small file (named `alveo.config`) which can be used by other tools (for example, Java, R or Python tools) to access your Alveo data.
 

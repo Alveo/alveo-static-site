@@ -24,4 +24,4 @@ To Create a Workflow…
 
 
 
-![GalaxyWorkflowEdit](assets/files/2014/08/GalaxyWorkflowEdit.png)
+![GalaxyWorkflowEdit](/assets/files/2014/08/GalaxyWorkflowEdit.png)

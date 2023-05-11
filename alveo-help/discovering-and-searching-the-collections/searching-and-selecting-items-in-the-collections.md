@@ -11,7 +11,7 @@ You can add or remove search conditions on any of the Facets shown in the **Limi
 
 ## **Text Searching**
 
-[![TextSearching](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/07/TextSearching.png)](assets/files/2014/07/TextSearching.png)
+[![TextSearching](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/07/TextSearching.png)](/assets/files/2014/07/TextSearching.png)
 
 Clicking Advanced search in this search control opens a screen where you can enter an [Apache Lucene/Solr syntax search string](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html). There are comprehensive instructions linked from that Advanced Search page.
 
@@ -23,7 +23,7 @@ You can also use wildcards, such as **c?t**, which finds “cat”, “cut”, �
 
 ## **Searching by Facet**
 
-![SearchSelection](assets/files/2014/07/SearchSelection.png)
+![SearchSelection](/assets/files/2014/07/SearchSelection.png)
 
 The search results are updated each time you click a Facet value.
 
@@ -31,7 +31,7 @@ The search results are updated each time you click a Facet value.
 
 You can remove search conditions and add new search conditions based on other Facets until you have the Item List you require.
 
-[![Searches](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/07/Searches.png)](assets/files/2014/07/Searches.png)
+[![Searches](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/07/Searches.png)](/assets/files/2014/07/Searches.png)
 
 Each time you refine your search list, the displayed list of matching Items will be updated.
 
