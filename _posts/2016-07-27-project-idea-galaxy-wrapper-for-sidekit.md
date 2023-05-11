@@ -1,10 +1,8 @@
 ---
-id: 1788
 title: 'Project Idea: Galaxy Wrapper for SIDEKIT'
 date: '2016-07-27T12:17:42+10:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1788'
 permalink: /2016/07/27/project-idea-galaxy-wrapper-for-sidekit/
 categories:
     - 'Project Idea'

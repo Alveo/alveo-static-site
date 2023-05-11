@@ -1,10 +1,8 @@
 ---
-id: 1358
 title: 'Alveo Publications'
 date: '2014-12-17T13:09:02+11:00'
 author: 'Dominique Estival'
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1358'
 ---
 
 All publications regarding the Alveo platform published to date.

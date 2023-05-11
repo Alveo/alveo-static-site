@@ -1,13 +1,11 @@
 ---
-id: 1583
 title: 'Part 3: Tools'
 date: '2015-11-18T16:54:47+11:00'
 author: aidan
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1583'
 ---
 
-This is Part 3 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](http://alveo.edu.au/tutorials/ "Tutorials") page. This Part will cover the suite of text manipulation and language analysis tools available in Galaxy, and how to run datasets through a series of tools.
+This is Part 3 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](/tutorials "Tutorials") page. This Part will cover the suite of text manipulation and language analysis tools available in Galaxy, and how to run datasets through a series of tools.
 
 ## Introduction to Tools
 

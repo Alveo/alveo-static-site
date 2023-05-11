@@ -1,10 +1,8 @@
 ---
-id: 1809
 title: 'Uploading Data to Alveo'
 date: '2016-08-19T01:59:19+10:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1809'
 permalink: /2016/08/19/uploading-data-to-alveo/
 categories:
     - News
@@ -38,7 +36,7 @@ Each speaker is in a separate directory and the data is split between data and l
 
 ## Writing an Upload Script
 
-Uploading the data to Alveo is relatively simple, the API provides endpoints for creating new collections and items and adding documents to items (see the [API documentation](http://alveo.github.io/apidocs/#/)). The easiest way to use this API is via the pyalveo library and the recently released version (0.6) supports these new operations. The simple form of the code to create an item is:
+Uploading the data to Alveo is relatively simple, the API provides endpoints for creating new collections and items and adding documents to items (see the [API documentation](/apidocs/#)). The easiest way to use this API is via the pyalveo library and the recently released version (0.6) supports these new operations. The simple form of the code to create an item is:
 
 \[python\]  
 client = pyalveo.Client(configfile=config)  

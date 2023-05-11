@@ -1,12 +1,11 @@
 ---
-id: 1551
 title: 'Part 1: Alveo Basics'
 date: '2015-11-18T16:53:37+11:00'
 author: aidan
 layout: page
 ---
 
-This is Part 1 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](http://alveo.edu.au/tutorials/ "Tutorials") page. This Part will cover the basics of how to use Alveo to browse through and navigate corpus files, discover data, view data and keep data in lists for later analysis.
+This is Part 1 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](/tutorials "Tutorials") page. This Part will cover the basics of how to use Alveo to browse through and navigate corpus files, discover data, view data and keep data in lists for later analysis.
 
 ## Logging in
 

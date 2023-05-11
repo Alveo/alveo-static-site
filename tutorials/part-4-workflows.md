@@ -1,13 +1,11 @@
 ---
-id: 1589
 title: 'Part 4: Workflows'
 date: '2015-11-18T16:50:48+11:00'
 author: aidan
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1589'
 ---
 
-This is Part 4 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](http://alveo.edu.au/tutorials/ "Tutorials") page. This Part will cover writing workflows in Galaxy, running workflows over single or multiple datasets, sharing workflows with others, and using other people’s shared workflows.
+This is Part 4 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](/tutorials "Tutorials") page. This Part will cover writing workflows in Galaxy, running workflows over single or multiple datasets, sharing workflows with others, and using other people’s shared workflows.
 
 ## Introduction to Workflows
 

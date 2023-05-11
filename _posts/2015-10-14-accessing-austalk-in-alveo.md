@@ -1,10 +1,8 @@
 ---
-id: 1445
 title: 'Accessing AusTalk in Alveo'
 date: '2015-10-14T16:26:52+11:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1445'
 permalink: /2015/10/14/accessing-austalk-in-alveo/
 categories:
     - News
@@ -33,7 +31,7 @@ collection_name:austalk AND componentName:sentences AND speaker: 1_1308
 
 ## Make an Item List
 
-Once you have found an interesting set of data you probably want to do something with it. The next step is to save your search as an [Item List](http://alveo.edu.au/alveo-help/discovering-and-searching-the-collections/saving-your-search-results-to-an-item-list/), which is the starting point for further analysis. Click on “Add all to List” and give your new list a name that will help you remember what it contains. Item lists will be saved with your account so you can reference them later and you can share them with others if they contain interesting collections of items.
+Once you have found an interesting set of data you probably want to do something with it. The next step is to save your search as an [Item List](/alveo-help/discovering-and-searching-the-collections/saving-your-search-results-to-an-item-list), which is the starting point for further analysis. Click on “Add all to List” and give your new list a name that will help you remember what it contains. Item lists will be saved with your account so you can reference them later and you can share them with others if they contain interesting collections of items.
 
 Once you have an item list you can download all of the data for each item as a zip file. Note that if your item list is large, this may take a while. For AusTalk this means you will get all of the audio channels for each item – we’re working on an interface to allow you to select just one channel (you probably want channel 6 which is the headset microphone). This will also download the TextGrid files which you can then use locally in Praat or Emu to begin your analysis.
 

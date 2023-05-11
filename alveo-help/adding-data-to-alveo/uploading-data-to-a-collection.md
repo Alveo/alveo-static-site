@@ -1,10 +1,8 @@
 ---
-id: 1887
 title: 'Uploading Data to a Collection'
 date: '2017-11-23T00:54:50+11:00'
 author: 'Steve Cassidy'
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1887'
 ---
 
 If you are a Data Owner, once you have created a collection you can proceed to add items and documents to your collection. A convenient way to do this is to upload a zip file containing your documents. You can do this by going to the main page for your collection and clicking on “Import Zip”.
@@ -21,7 +19,7 @@ If you have more than one document per item, they can be grouped in two ways: by
 
 ### Grouping by Directory Name
 
-If you have a number of documents for each item you can make a different directory for each item and store the files in that directory. In the example here (from the MAVA collection) the directory names are s1, s2 etc and each contains a collection of documents. ![screen shot of a file system](http://alveo.edu.au/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-4.50.19-pm.png)
+If you have a number of documents for each item you can make a different directory for each item and store the files in that directory. In the example here (from the MAVA collection) the directory names are s1, s2 etc and each contains a collection of documents. ![screen shot of a file system](assets/files/2017/12/Screen-Shot-2017-12-05-at-4.50.19-pm.png)
 
 Given this structure, you can create one item for each directory and attach the documents to that item.
 
@@ -29,13 +27,13 @@ Given this structure, you can create one item for each directory and attach the 
 
 Another common case is to have a group of files with the same base name but different extensions, as in this example:
 
-![screen shot of file system](http://alveo.edu.au/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-4.53.11-pm.png)
+![screen shot of file system](assets/files/2017/12/Screen-Shot-2017-12-05-at-4.53.11-pm.png)
 
 In this case, the files with the same name can be grouped together to be attached to the same item. The name of the item is the common base name (eg. sp1.1249).
 
 ## Import Settings
 
-![screen shot of import settings](http://alveo.edu.au/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-5.12.03-pm.png)
+![screen shot of import settings](assets/files/2017/12/Screen-Shot-2017-12-05-at-5.12.03-pm.png)
 
 On the zip import page you have the option to select a zip file for upload and to set a number of metadata fields. These metadata fields will be set for **all of the items** that you import from this zip file. Some common fields are pre-populated, you should modify their values or remove them as appropriate. These fields are used on most of the Alveo collections so adding values if possible may help people find your data in searches. Possible values for these fields include:
 
@@ -51,7 +49,7 @@ Further metadata fields can be added as needed
 
 When you have completed filling out the metadata for your items, click on the blue **Upload** button and your zip file will be submitted. It will be unpacked and you will be shown a preview of the import. You can change various options and refresh to update the preview. At this point your data has not yet been imported, you must confirm the settings first.
 
-![Screen Shot of zip upload options](http://alveo.edu.au/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-6.20.04-pm-1024x562.png)
+![Screen Shot of zip upload options](assets/files/2017/12/Screen-Shot-2017-12-05-at-6.20.04-pm-1024x562.png)
 
 The preview shows a the number of documents and items that would be created, and allows you to change some settings to modify how the files will be imported. Below the form, you will see a preview of the items and their documents.
 
@@ -61,7 +59,7 @@ The default behaviour is to look for common base names in your files and group t
 
 **Extract item metadata from filenames** allows you to parse metadata from item filenames in a simple manner. If you check this box, a number of other options will appear:
 
-![Screen Shot filename parse options](http://alveo.edu.au/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-6.28.56-pm-1024x409.png)
+![Screen Shot filename parse options](assets/files/2017/12/Screen-Shot-2017-12-05-at-6.28.56-pm-1024x409.png)
 
 You must specify a delimiter character and the number of fields to split the filename into. For example, if your files are named sp1.1234.wav, where **sp1** is the speaker identifier and **1234** is the prompt that was read by the speaker you could specify a delimiter of “.” and two fields. You can then specify the field names: **olac:speaker** is the metadata property name used in Alveo for the speaker associated with an item. We could also use **austalk:prompt** for the prompt as that is used in the Austalk collection. With these settings, the filename will be parsed for each item to extract the appropriate metadata value.
 

@@ -1,10 +1,8 @@
 ---
-id: 85
 title: 'Researcher Input'
 date: '2013-05-31T02:47:52+10:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://marcs.uws.edu.au/hcsvlab/?p=85'
 permalink: /2013/05/31/researcher-input/
 categories:
     - 'User Requirements'
@@ -22,7 +20,7 @@ A number of researchers we spoke to are keen to get access to more publically av
 
 We also found that the majority of researchers are using data that they have collected themselves. Many of these researchers are not able to readily share that data due to commercial licencing or issues with privacy and consent.
 
-Access to powerful search functionality is high on the list of priorities for a number of researchers. A couple of examples were provided of websites with powerful, easy-to-use search interfaces: [BYU-BNC: British National Corpus](http://corpus.byu.edu/bnc/) and [Collins “WordBanks”](http://www.collinslanguage.com/content-solutions/wordbanks).
+Access to powerful search functionality is high on the list of priorities for a number of researchers. A couple of examples were provided of websites with powerful, easy-to-use search interfaces: [BYU-BNC: British National Corpus](/bnc) and [Collins “WordBanks”](http://www.collinslanguage.com/content-solutions/wordbanks).
 
 #### Annotations
 

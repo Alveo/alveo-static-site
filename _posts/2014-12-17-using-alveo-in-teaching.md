@@ -1,10 +1,8 @@
 ---
-id: 1353
 title: 'Using Alveo in teaching'
 date: '2014-12-17T13:00:34+11:00'
 author: 'Dominique Estival'
 layout: post
-guid: 'http://alveo.edu.au/?p=1353'
 permalink: /2014/12/17/using-alveo-in-teaching/
 categories:
     - News

@@ -1,17 +1,15 @@
 ---
-id: 912
 title: 'Operation Basics'
 date: '2014-07-29T14:19:16+10:00'
 author: peterr
 layout: page
-guid: 'http://alveo.edu.au/?page_id=912'
 ---
 
 ## **The Main Screen**
 
 Alveo’s main screen has four important elements:
 
-![ScreenBasics](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/07/ScreenBasics.png)
+![ScreenBasics](assets/files/2014/07/ScreenBasics.png)
 
 The **Navigation Bar** which includes your email address – it’s always the same, no matter what screen you’re displaying. It’s even similar before you log in, when you display the Alveo web site and for this Alveo Help.
 
@@ -25,8 +23,8 @@ The **Funder Acknowledgement** area recognises the funding source for the Alveo 
 
 The **Program Version** info – which shows the Alveo program version you’re connected to.
 
-## **Using the Alveo <abbr title="Application Programming Interface">API</abbr>**
+## **Using the Alveo API**
 
-In addition to the Alveo web user interface, the Alveo Collections can be accessed programmatically using the Alveo <abbr title="HyperText Transfer Protocol">HTTP</abbr> <abbr title="Application Programming Interface">API</abbr> as described in the [HTTP API Reference](http://alveo.edu.au/alveo-help/http-api-reference/) page of this help. This API is used by both Galaxy / Alveo and by the EMU R Library functions which extract data from Alveo.
+In addition to the Alveo web user interface, the Alveo Collections can be accessed programmatically using the Alveo HTTP API as described in the [HTTP API Reference](/alveo-help/http-api-reference) page of this help. This API is used by both Galaxy / Alveo and by the EMU R Library functions which extract data from Alveo.
 
-Use of this API requires an API Key. See [What’s an API Key?](http://alveo.edu.au/alveo-help/getting-access-to-alveo-and-galaxy/whats-an-api-key/ "What's an API Key?") for more information about your API Key.
+Use of this API requires an API Key. See [What’s an API Key?](/alveo-help/getting-access-to-alveo-and-galaxy/whats-an-api-key "What's an API Key?") for more information about your API Key.

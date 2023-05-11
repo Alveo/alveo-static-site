@@ -1,13 +1,11 @@
 ---
-id: 1088
 title: 'Using Alveo Data with EMU/R'
 date: '2014-08-01T18:09:32+10:00'
 author: peterr
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1088'
 ---
 
-EMU is a speech processing package which runs in the free R statistical computing and graphics environment. (See the [Alveo HELP](http://alveo.edu.au/alveo-help/ "Alveo Help") page for more background on EMU/R and and the R environment.)
+EMU is a speech processing package which runs in the free R statistical computing and graphics environment. (See the [Alveo HELP](/alveo-help "Alveo Help") page for more background on EMU/R and and the R environment.)
 
 ## **Installation of EMU/R**
 
@@ -15,7 +13,7 @@ Before you can use EMU/R you need to install R, EMU, the EMU prerequisite packag
 
 ### Installing R
 
-You will need to download and install R from the local mirror <http://cran.csiro.au/>. Version 3.0.2 or later is required.
+You will need to download and install R from the local mirror . Version 3.0.2 or later is required.
 
 Installation of the R Base package is sufficient. Downloads for Mac, Windows and Linux are available.
 
@@ -23,7 +21,7 @@ Installation of the R Base package is sufficient. Downloads for Mac, Windows and
 
 After successfully installing R, you must download and install EMU and its prerequisite packages. These must be installed into your R environment. Again, downloads for Mac, Windows and Linux are available.
 
-Instructions for installation can be found at <https://github.com/Alveo/alveo-r/> on the GitHub open source repository. These instructions direct you to download and install the following components.
+Instructions for installation can be found at  on the GitHub open source repository. These instructions direct you to download and install the following components.
 
 | **alveo** | The Alveo R Library, which accesses the Alveo web service and downloads your Alveo the Documents from your Item List into the R environment. |
 |---|---|
@@ -35,19 +33,23 @@ Instructions for installation can be found at <https://github.com/Alveo/alveo-r/
 
 Alveo does not launch EMU (unlike the way Alveo launches Galaxy / Alveo). Instead, Alveo provides the details which you need in your EMU/R environment to access the data in your Alveo Item List.
 
-<section class="panel panel-default instructions"><div class="panel-title">To Access Alveo Data in EMU/R…</div><div class="panel-body">- **Click** on **Item Lists** in the Alveo Navigation Bar. The names of your available Item Lists will be displayed.
-- **Click** on the name of the Item List you want to access in EMU/R. The Items in this Item List will be shown.
-- **Click** <button class="btn btn-default" type="button">Item List Actions</button> and select **Use in EMU/R** from the dropdown menu which is displayed. The **Use *&lt;Item List&gt;* in EMU/R** dialog (shown below) will be displayed.
-- **Click** <span style="color: #3366ff;">Download API key config file</span>. A file save dialog will appear. Save the <tt>alveo.config</tt> file into the directory recommended in the dialog for your operating system. (**&lt;user&gt;** means your computer login User Name. The directory should already exist.)
-- **Drag** the cursor over the R code in the lower part of the dialog to highlight it.
-- **Press** <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy the R code to the clipboard.
-- **Click** <button class="btn btn-info" type="button">Close</button> to close this dialog.
-- **Launch** the R environment on your computer (independently from Alveo).
-- **Paste** the clipboard text into the R console window. You may need to press <kbd>Enter</kbd> to get the last command to execute.
+To Access Alveo Data in EMU/R…
 
-</div></section>[![EMUDialog](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/08/EMUDialog.png)](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/08/EMUDialog.png)
+- **Click** on **Item Lists** in the Alveo Navigation Bar. The names of your available Item Lists will be displayed.
+- **Click** on the name of the Item List you want to access in EMU/R. The Items in this Item List will be shown.
+- **Click** Item List Actions and select **Use in EMU/R** from the dropdown menu which is displayed. The **Use *&lt;Item List&gt;* in EMU/R** dialog (shown below) will be displayed.
+- **Click** Download API key config file. A file save dialog will appear. Save the alveo.config file into the directory recommended in the dialog for your operating system. (**&lt;user&gt;** means your computer login User Name. The directory should already exist.)
+- **Drag** the cursor over the R code in the lower part of the dialog to highlight it.
+- **Press** Ctrl+C to copy the R code to the clipboard.
+- **Click** Close to close this dialog.
+- **Launch** the R environment on your computer (independently from Alveo).
+- **Paste** the clipboard text into the R console window. You may need to press Enter to get the last command to execute.
+
+
+
+[![EMUDialog](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/08/EMUDialog.png)](assets/files/2014/08/EMUDialog.png)
 
 - Your Item List Documents will appear in your R environment as a data structure under the item\_list variable.
 - The API Key only needs to be exported once, unless you have subsequently regenerated your API Key.
 
-Further operation of R is beyond the scope of this Help. You can refer to the pages linked on the main [Alveo HELP](http://alveo.edu.au/alveo-help/ "Alveo Help") page.
+Further operation of R is beyond the scope of this Help. You can refer to the pages linked on the main [Alveo HELP](/alveo-help "Alveo Help") page.

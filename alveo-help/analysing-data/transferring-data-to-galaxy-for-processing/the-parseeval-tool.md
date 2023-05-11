@@ -1,10 +1,8 @@
 ---
-id: 1080
 title: 'The ParseEval Tool'
 date: '2014-08-01T17:37:18+10:00'
 author: peterr
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1080'
 ---
 
 ParseEvaL is a tool developed by Dr. Jason A. Shaw of the University of Western Sydney and Prof. Adamantios I. Gafos of the University of Potsdam.
@@ -15,14 +13,18 @@ ParseEval has been integrated into Galaxy / Alveo as a Galaxy Tool. You can run 
 
 You must be running Galaxy to use this tool.
 
-<section class="panel panel-default instructions"><div class="panel-title">To Run ParseEval…</div><div class="panel-body">- **Click** on **Analyze Data** to show the Analyze Data screen, unless it is already showing.
-- **Click** on <u>**ParseEval**</u> in the Tools panel on the left hand side of the screen. The Tools Group will open, although it contains only the ParseEval Tool.
-- **Click** on the <u>ParseEval</u> Tool name. The ParseEval parameters will be shown in the Operation Panel. There are about 15 numeric parameters and an output file name.
+To Run ParseEval…
+
+- **Click** on **Analyze Data** to show the Analyze Data screen, unless it is already showing.
+- **Click** on **ParseEval** in the Tools panel on the left hand side of the screen. The Tools Group will open, although it contains only the ParseEval Tool.
+- **Click** on the ParseEval Tool name. The ParseEval parameters will be shown in the Operation Panel. There are about 15 numeric parameters and an output file name.
 - **Enter** the parameter values you require.
 - **Enter** the name of the output file your require.
-- **Click** on <button class="btn btn-primary" type="button">Execute</button> to start the processing.
+- **Click** on Execute to start the processing.
 
-</div></section>- The numeric ParseEval are parameters are defaulted to zero. These are not reasonable values, so users must set meaningful values into these parameters.
+
+
+- The numeric ParseEval are parameters are defaulted to zero. These are not reasonable values, so users must set meaningful values into these parameters.
 - The meaning of the ParseEval parameters is beyond the scope of this Help. If you require further information on these parameters, please see the references at the end of the Help page.
 
 ## **ParseEval Background**

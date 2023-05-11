@@ -37,8 +37,8 @@ mean this isn’t going to be an easy task.
 
 It was interesting that only a small number of tools were used to annotate  
 and analyse the data. People mentioned [Emu](http://emu.sourceforge.net/),  
-[Praat](http://www.fon.hum.uva.nl/praat/)  
-and [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) for annotation with [R](http://www.r-project.org/) and [Matlab](http://www.mathworks.com.au/products/matlab/)  
+[Praat](/praat)  
+and [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) for annotation with [R](http://www.r-project.org/) and [Matlab](/products/matlab)  
 being used for data analysis. While a few other tools were mentioned, these  
 covered the majority of the work that was being reported at the conference. There  
 were suggestions that some way of sharing and documenting snippets of code  
@@ -65,4 +65,4 @@ time the next SST comes around (in two years in Christchurch, NZ) we’ll be
 listening to papers that have been written with the help of the HCSvLab.
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/deed.en_US)  
-<span property="dct:title" xmlns:dct="http://purl.org/dc/terms/">First HCSvLab Workshop at SST2012</span> by <span property="cc:attributionName" xmlns:cc="http://creativecommons.org/ns#">Steve Cassidy</span> is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
+First HCSvLab Workshop at SST2012 by Steve Cassidy is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).

@@ -1,10 +1,8 @@
 ---
-id: 1834
 title: 'Server Status Update'
 date: '2016-11-19T15:55:01+11:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1834'
 permalink: /2016/11/19/server-status-update/
 categories:
     - News

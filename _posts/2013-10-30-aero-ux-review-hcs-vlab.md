@@ -1,10 +1,8 @@
 ---
-id: 160
 title: 'AeRO UX Review: HCS vLab'
 date: '2013-10-30T17:19:57+11:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://ic2-hcsvlab-galaxy-qa-vm.intersect.org.au/?p=160'
 permalink: /2013/10/30/aero-ux-review-hcs-vlab/
 categories:
     - News

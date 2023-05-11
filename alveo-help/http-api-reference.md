@@ -1,10 +1,8 @@
 ---
-id: 1272
 title: 'HTTP API Reference'
 date: '2014-08-29T12:24:32+10:00'
 author: peterr
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1272'
 ---
 
 The Alveo API provides access to resources from the Alveo platform in a machine readable format (JSON). At present the API supports retrieving Item Lists, Items, Documents and Collection level metadata; it does not support creating Item Lists. It is assumed that a user will create an Item List via the Web Application and then can write code to access the Item List and individual Items for processing.
@@ -20,55 +18,59 @@ The API Key needs to be specified as X-API-KEY in the request header. The API us
 #### Command line:
 
 ```
-Where <host> is the vlab host, e.g. https://app.alveo.edu.au/
-$ curl -H "X-API-KEY: WUqhKgM25PJuzivjdvGt" <host>/item_lists.json
-$ curl -H "X-API-KEY: WUqhKgM25PJuzivjdvGt" -H "Accept: application/json" <host>item_lists
+Where  is the vlab host, e.g. https://app.alveo.edu.au/
+$ curl -H "X-API-KEY: WUqhKgM25PJuzivjdvGt" /item_lists.json
+$ curl -H "X-API-KEY: WUqhKgM25PJuzivjdvGt" -H "Accept: application/json" item_lists
 
 ```
 
 #### Python
 
-<div class="highlight highlight-python" style="color: #333333;">```
-    <span class="kn" style="font-weight: bold;">import</span> <span class="nn" style="color: #555555;">pycurl</span>
-    <span class="kn" style="font-weight: bold;">import</span> <span class="nn" style="color: #555555;">cStringIO</span>
-    <span class="kn" style="font-weight: bold;">import</span> <span class="nn" style="color: #555555;">json</span>
+```
+    import pycurl
+    import cStringIO
+    import json
 
-    <span class="n" style="color: #333333;">api_key</span> <span class="o" style="font-weight: bold;">=</span> <span class="o" style="font-weight: bold;"><</span><span class="n" style="color: #333333;">YOUR_X_API_KEY</span><span class="o" style="font-weight: bold;">></span>
-    <span class="n" style="color: #333333;">url</span> <span class="o" style="font-weight: bold;">=</span> <span class="o" style="font-weight: bold;"><</span><span class="n" style="color: #333333;">YOUR_URL</span><span class="o" style="font-weight: bold;">></span> <span class="c" style="font-style: italic; color: #999988;"># e.g.: https://app.alveo.edu.au/item_lists/1</span>
+    api_key = YOUR_X_API_KEY>
+    url = YOUR_URL> # e.g.: https://app.alveo.edu.au/item_lists/1
 
-    <span class="n" style="color: #333333;">curl</span> <span class="o" style="font-weight: bold;">=</span> <span class="n" style="color: #333333;">pycurl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">Curl</span><span class="p">()</span>
-    <span class="n" style="color: #333333;">buf</span> <span class="o" style="font-weight: bold;">=</span> <span class="n" style="color: #333333;">cStringIO</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">StringIO</span><span class="p">()</span>
-    <span class="n" style="color: #333333;">curl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">setopt</span><span class="p">(</span><span class="n" style="color: #333333;">curl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">URL</span><span class="p">,</span> <span class="n" style="color: #333333;">url</span><span class="p">)</span>
-    <span class="n" style="color: #333333;">curl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">setopt</span><span class="p">(</span><span class="n" style="color: #333333;">pycurl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">HTTPHEADER</span><span class="p">,</span> <span class="p">[</span><span class="s" style="color: #dd1144;">'X-API-KEY: '</span> <span class="o" style="font-weight: bold;">+</span> <span class="n" style="color: #333333;">api_key</span><span class="p">,</span> <span class="s" style="color: #dd1144;">'Accept: application/json'</span><span class="p">])</span>
-    <span class="n" style="color: #333333;">curl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">setopt</span><span class="p">(</span><span class="n" style="color: #333333;">curl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">WRITEFUNCTION</span><span class="p">,</span> <span class="n" style="color: #333333;">buf</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">write</span><span class="p">)</span>
-    <span class="n" style="color: #333333;">curl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">perform</span><span class="p">()</span>
-    <span class="n" style="color: #333333;">response</span> <span class="o" style="font-weight: bold;">=</span> <span class="n" style="color: #333333;">buf</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">getvalue</span><span class="p">()</span>
-    <span class="n" style="color: #333333;">status</span> <span class="o" style="font-weight: bold;">=</span> <span class="n" style="color: #333333;">curl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">getinfo</span><span class="p">(</span><span class="n" style="color: #333333;">pycurl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">HTTP_CODE</span><span class="p">)</span> 
-    <span class="n" style="color: #333333;">response</span> <span class="o" style="font-weight: bold;">=</span> <span class="n" style="color: #333333;">json</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">loads</span><span class="p">(</span><span class="n" style="color: #333333;">string</span><span class="p">)</span>
+    curl = pycurl.Curl()
+    buf = cStringIO.StringIO()
+    curl.setopt(curl.URL, url)
+    curl.setopt(pycurl.HTTPHEADER, ['X-API-KEY: ' + api_key, 'Accept: application/json'])
+    curl.setopt(curl.WRITEFUNCTION, buf.write)
+    curl.perform()
+    response = buf.getvalue()
+    status = curl.getinfo(pycurl.HTTP_CODE) 
+    response = json.loads(string)
 ```
 
-</div>#### Ruby
 
-<div class="highlight highlight-ruby" style="color: #333333;">```
-    <span class="nb" style="color: #0086b3;">require</span> <span class="s1" style="color: #dd1144;">'net/http'</span>
-    <span class="nb" style="color: #0086b3;">require</span> <span class="s1" style="color: #dd1144;">'json'</span>
 
-    <span class="n" style="color: #333333;">api_key</span> <span class="o" style="font-weight: bold;">=</span> <span class="o" style="font-weight: bold;"><</span><span class="no" style="color: teal;">YOUR_X_API_KEY</span><span class="o" style="font-weight: bold;">></span>
-    <span class="n" style="color: #333333;">url</span> <span class="o" style="font-weight: bold;">=</span> <span class="o" style="font-weight: bold;"><</span><span class="no" style="color: teal;">YOUR_URL</span><span class="o" style="font-weight: bold;">></span> <span class="c1" style="font-style: italic; color: #999988;"># e.g.: https://app.alveo.edu.au/item_lists/1</span>
+#### Ruby
 
-    <span class="n" style="color: #333333;">sampleUrl</span> <span class="o" style="font-weight: bold;">=</span> <span class="no" style="color: teal;">URI</span><span class="p">(</span><span class="n" style="color: #333333;">url</span><span class="p">)</span>
-    <span class="n" style="color: #333333;">req</span> <span class="o" style="font-weight: bold;">=</span> <span class="no" style="color: teal;">Net</span><span class="o" style="font-weight: bold;">::</span><span class="no" style="color: teal;">HTTP</span><span class="o" style="font-weight: bold;">::</span><span class="no" style="color: teal;">Get</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">new</span><span class="p">(</span><span class="n" style="color: #333333;">sampleUrl</span><span class="p">)</span>
-    <span class="n" style="color: #333333;">req</span><span class="o" style="font-weight: bold;">[</span><span class="s1" style="color: #dd1144;">'X-API-KEY'</span><span class="o" style="font-weight: bold;">]</span> <span class="o" style="font-weight: bold;">=</span> <span class="o" style="font-weight: bold;"><</span><span class="no" style="color: teal;">YOUR_X_API_KEY</span><span class="o" style="font-weight: bold;">></span>
-    <span class="n" style="color: #333333;">req</span><span class="o" style="font-weight: bold;">[</span><span class="s1" style="color: #dd1144;">'Accept'</span><span class="o" style="font-weight: bold;">]</span> <span class="o" style="font-weight: bold;">=</span> <span class="s2" style="color: #dd1144;">"application/json"</span>
+```
+    require 'net/http'
+    require 'json'
 
-    <span class="n" style="color: #333333;">response</span> <span class="o" style="font-weight: bold;">=</span> <span class="no" style="color: teal;">Net</span><span class="o" style="font-weight: bold;">::</span><span class="no" style="color: teal;">HTTP</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">start</span><span class="p">(</span><span class="n" style="color: #333333;">sampleUrl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">hostname</span><span class="p">,</span> <span class="n" style="color: #333333;">sampleUrl</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">port</span><span class="p">)</span> <span class="p">{</span><span class="o" style="font-weight: bold;">|</span><span class="n" style="color: #333333;">http</span><span class="o" style="font-weight: bold;">|</span>
-      <span class="n" style="color: #333333;">http</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">request</span><span class="p">(</span><span class="n" style="color: #333333;">req</span><span class="p">)</span>
-    <span class="p">}</span>
+    api_key = YOUR_X_API_KEY>
+    url = YOUR_URL> # e.g.: https://app.alveo.edu.au/item_lists/1
 
-    <span class="n" style="color: #333333;">jsonResponse</span> <span class="o" style="font-weight: bold;">=</span> <span class="no" style="color: teal;">JSON</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">parse</span><span class="p">(</span><span class="n" style="color: #333333;">res</span><span class="o" style="font-weight: bold;">.</span><span class="n" style="color: #333333;">body</span><span class="p">)</span>
+    sampleUrl = URI(url)
+    req = Net::HTTP::Get.new(sampleUrl)
+    req['X-API-KEY'] = YOUR_X_API_KEY>
+    req['Accept'] = "application/json"
+
+    response = Net::HTTP.start(sampleUrl.hostname, sampleUrl.port) {|http|
+      http.request(req)
+    }
+
+    jsonResponse = JSON.parse(res.body)
 ```
 
-</div>## [](https://github.com/IntersectAustralia/hcsvlab-docs/blob/76192def6257ebd4d27591e3d433fa01d33f9307/APIMethods.md#http-response-codes)HTTP Response Codes
+
+
+## [](https://github.com/IntersectAustralia/hcsvlab-docs/blob/76192def6257ebd4d27591e3d433fa01d33f9307/APIMethods.md#http-response-codes)HTTP Response Codes
 
 | Scenario | HTTP Response Code |
 |---|---|
@@ -83,7 +85,7 @@ $ curl -H "X-API-KEY: WUqhKgM25PJuzivjdvGt" -H "Accept: application/json" <host>
 | Description | URL | Method | Returns | Notes |
 |---|---|---|---|---|
 | Get API version | /version | GET | API version |  |
-| Example Response | `<br></br>	{“API version”:”V2.0″}<br></br>` |
+| Example Response | `	{“API version”:”V2.0″}` |
 | Get item lists | /item\_lists | GET | Item Lists of the user (name, url, number of items) |  |
 | Example Response | ```  	[ 		{ 			"name":"Jared's Item List 1", 			"item_list_url":"https://app.alveo.edu.au/item_lists/5", 			"num_items":1 		}, 		{ 			"name":"Jared's Item List 2", 			"item_list_url":"https://app.alveo.edu.au/item_lists/15", 			"num_items":3 		}, 		{ 			"name":"Jared's Item List 3", 			"item_list_url":"https://app.alveo.edu.au/item_lists/16", 			"num_items":3 		} 	]  	 ``` |
 | Get Items from Item List | /item\_lists/{id} | GET | Specified Item List of the user (name, list of items) | Item list can be retrieved as JSON, ZIP or WARC format. The JSON format will only return the URL for the items in the Item list as shown below. The ZIP and WARC file will create a package containing the documents and metadata of the items in the Item list.      The Zip file will respect the BagIt structure.      Requests example:       curl -H “X-API-KEY: &lt;key&gt;” -H “Accept: application/&lt;format&gt;” &lt;server&gt;/item\_lists/{id}      format= json or zip or warc |
@@ -114,15 +116,15 @@ $ curl -H "X-API-KEY: WUqhKgM25PJuzivjdvGt" -H "Accept: application/json" <host>
 | Example Response | ```  	{ 		"collection_url":"https://app.alveo.edu.au/catalog/monash", 		"collection_name":"monash", 		"metadata": {  			"RDF_type":"Collection",  			"Is Located At":"Monash University, Victoria, Australia",  			"Custodian":"simon Musgrave",  			"Rights":"All rights reserved to Monash UNiversity",  			"Subject":"2004 - Linguistics",  			"Title":"Monash Corpus of Spoken English" 			... (other fields) 		} 	} 	 ``` |
 | Search Metadata | /catalog/search?metadata=&lt;query&gt;       Example:    /catalog/search?metadata=collection\_name:cooee | GET | List of search results |  |
 | Example Response | ```  	{ 		"num_results":4, 		"items":[ 			"https://app.alveo.edu.au/catalog/cooee/2-036", 			"https://app.alveo.edu.au/catalog/cooee/2-037", 			"https://app.alveo.edu.au/catalog/cooee/2-038", 			"https://app.alveo.edu.au/catalog/cooee/2-040" 		] 	} 	 ``` |
-| Add to item list | /item\_lists      /item\_lists?name=ItemListA | POST | Result of item list operation (error/success) | This is a post request that requires a JSON set of items sent with it. Hence, cannot be replicated through a browser but through curl this can be done with something akin to:      curl -H “X-API-KEY: <key>” -H “Content-Type: application/json” -H “Accept: application/json” -X POST -d ‘{“num\_results”:2,”items”:\[“<host>/catalog/cooee/2-015″,”<host>/catalog/cooee/2-021″\]}’ <host>/item\_lists?name=A      Note: the name doesn’t have to be sent in as a parameter attached to the URL, it can also be sent in as part of the JSON </host></host></host></key> |
-| Example Input | ```  	{ 		"name":"New Item List", 		"num_results":4, 		"items":[ 			"https://app.alveo.edu.au/catalog/cooee/2-036", 			"https://app.alveo.edu.au/catalog/cooee/2-037", 			"https://app.alveo.edu.au/catalog/cooee/2-038", 			"https://app.alveo.edu.au/catalog/cooee/2-040" ]  		] 	} 	 ``` 	<br></br>OR if name is specified as url parameter as shown in the notes above 	<br></br> 	```  	{ 		"items":[ 			"https://app.alveo.edu.au/catalog/cooee/2-036", 			"https://app.alveo.edu.au/catalog/cooee/2-037", 			"https://app.alveo.edu.au/catalog/cooee/2-038", 			"https://app.alveo.edu.au/catalog/cooee/2-040" ]  		] 	}  	 ``` |
+| Add to item list | /item\_lists      /item\_lists?name=ItemListA | POST | Result of item list operation (error/success) | This is a post request that requires a JSON set of items sent with it. Hence, cannot be replicated through a browser but through curl this can be done with something akin to:      curl -H “X-API-KEY: ” -H “Content-Type: application/json” -H “Accept: application/json” -X POST -d ‘{“num\_results”:2,”items”:\[“/catalog/cooee/2-015″,”/catalog/cooee/2-021″\]}’ /item\_lists?name=A      Note: the name doesn’t have to be sent in as a parameter attached to the URL, it can also be sent in as part of the JSON  |
+| Example Input | ```  	{ 		"name":"New Item List", 		"num_results":4, 		"items":[ 			"https://app.alveo.edu.au/catalog/cooee/2-036", 			"https://app.alveo.edu.au/catalog/cooee/2-037", 			"https://app.alveo.edu.au/catalog/cooee/2-038", 			"https://app.alveo.edu.au/catalog/cooee/2-040" ]  		] 	} 	 ``` 	OR if name is specified as url parameter as shown in the notes above 	 	```  	{ 		"items":[ 			"https://app.alveo.edu.au/catalog/cooee/2-036", 			"https://app.alveo.edu.au/catalog/cooee/2-037", 			"https://app.alveo.edu.au/catalog/cooee/2-038", 			"https://app.alveo.edu.au/catalog/cooee/2-040" ]  		] 	}  	 ``` |
 | Example Response | ```  	Success: 		{"success":"2 items added to existing item list A"} 	Failure: 		{"error":"name parameter not found"} 		or 		{"error":"items parameter not found"} 		or 		{"error":"items parameter not an array"} 		or 		{"error":"invalid-json"}  	 ``` |
 | Rename Item List | /item\_lists/{item\_list\_id} | PUT | Item list if successful/error message if failure | This is a put request that takes the new name of the item list. Example curl command:      curl -H “X-API-KEY:&lt;api\_key&gt;” -H “Accept: application/json” -X PUT -d ‘{“name”:”&lt;new name&gt;”}’ &lt;host&gt;/item\_lists/:id |
 | Example Response | ```  	Success: 	{ 		"name":"Jared's Item List 2", 		"num_items":3, 		"items":[ 			"https://app.alveo.edu.au/catalog/cooee/2-037", 			"https://app.alveo.edu.au/catalog/cooee/2-038", 			"https://app.alveo.edu.au/catalog/cooee/2-040" ]  		] 	}  	Failure: 		{"error":"name can't be blank"} 		or 		{"error":"name too long"} 		or 		{"error":"couldn't rename item list"} 	 ``` |
 | Upload Annotation | /catalog/{collection\_name}/{item\_id}/annotations | POST | Result of item list operation (error/success) | This is a post request that requires a file sent with it. Hence, cannot be replicated through a browser but through curl this can be done with something akin to:      curl -H “X-API-KEY:&lt;api\_key&gt;” -H “Accept: application/json” -F file=@&lt;path\_to\_file&gt; &lt;host&gt;/catalog/:id/annotations |
-| Json-Ld Input File format | ```  	{ 		  "@context": { 			"@base": "http://purl.org/dada/schema/0.2/", 			"<prefix>": { 		    		"@id": "<uri>" 			}, 			"<prefix>": { 		    		"@id": "<uri>" 			}, 			. 			. 			. 			"<prefix>": { 		    		"@id": "<uri>" 			}, 		  }, 		  "@graph":[ 		    { 		        "@type": "http://purl.org/dada/schema/0.2#UTF8Region", 		        "<property_name>": "value", 		        "<property_name>": "value", 		        . 		        . 		        . 		        "<property_name>": "value", 		    }, 		    { 		        "@type": "http://purl.org/dada/schema/0.2#UTF8Region", 		        "<property_name>": "value", 		        "<property_name>": "value", 		        . 		        . 		        . 		        "<property_name>": "value", 		    }, 		    . 		    . 		    . 		    { 		        "@type": "http://purl.org/dada/schema/0.2#UTF8Region", 		        "<property_name>": "value", 		        "<property_name>": "value", 		        . 		        . 		        . 		        "<property_name>": "value", 		    } 		  ] 	} 	</property_name></property_name></property_name></property_name></property_name></property_name></property_name></property_name></property_name></uri></prefix></uri></prefix></uri></prefix> ``` |
-| Example Response | ```  		Success: 			{"success":"file <filename> uploaded successfully"} 		Failure: 			{"error":"No Item with id '<item_id>' exists."} 			or 			{"error":"Uploaded file is not present or empty."} 			or 			{"error":"File already uploaded."} 			or 			{"error":"Error uploading file <filename>."} 		 ``` |
-| Query metadata and annotations usign sparql | /sparql/&lt;collection-name&gt;?query=&lt;sparql-query&gt; | GET | Json formatted query result | curl -g -H “X-API-KEY: &lt;API\_KEY&gt;” -H “Accept: application/json” “&lt;host&gt;/sparql/&lt;collection-name&gt;?query=&lt;sparql-query&gt;”        Example:    curl -g -H “X-API-KEY: &lt;API\_KEY&gt;” -H “Accept: application/json” “&lt;host&gt;/sparql/cooee?query=select \* where {?s &lt;http://purl.org/dc/terms/isPartOf&gt; ?o}” (e.g.curl -H “X-API-KEY:<apikey>” -H “Content-Type: application/json” -H “Accept: application/json” https://<serverurl>/licences </serverurl></apikey> |
+| Json-Ld Input File format | ```  	{ 		  "@context": { 			"@base": "http://purl.org/dada/schema/0.2/", 			"": { 		    		"@id": "" 			}, 			"": { 		    		"@id": "" 			}, 			. 			. 			. 			"": { 		    		"@id": "" 			}, 		  }, 		  "@graph":[ 		    { 		        "@type": "http://purl.org/dada/schema/0.2#UTF8Region", 		        "": "value", 		        "": "value", 		        . 		        . 		        . 		        "": "value", 		    }, 		    { 		        "@type": "http://purl.org/dada/schema/0.2#UTF8Region", 		        "": "value", 		        "": "value", 		        . 		        . 		        . 		        "": "value", 		    }, 		    . 		    . 		    . 		    { 		        "@type": "http://purl.org/dada/schema/0.2#UTF8Region", 		        "": "value", 		        "": "value", 		        . 		        . 		        . 		        "": "value", 		    } 		  ] 	} 	 ``` |
+| Example Response | ```  		Success: 			{"success":"file  uploaded successfully"} 		Failure: 			{"error":"No Item with id '' exists."} 			or 			{"error":"Uploaded file is not present or empty."} 			or 			{"error":"File already uploaded."} 			or 			{"error":"Error uploading file ."} 		 ``` |
+| Query metadata and annotations usign sparql | /sparql/&lt;collection-name&gt;?query=&lt;sparql-query&gt; | GET | Json formatted query result | curl -g -H “X-API-KEY: &lt;API\_KEY&gt;” -H “Accept: application/json” “&lt;host&gt;/sparql/&lt;collection-name&gt;?query=&lt;sparql-query&gt;”        Example:    curl -g -H “X-API-KEY: &lt;API\_KEY&gt;” -H “Accept: application/json” “&lt;host&gt;/sparql/cooee?query=select \* where {?s &lt;http://purl.org/dc/terms/isPartOf&gt; ?o}” (e.g.curl -H “X-API-KEY:” -H “Content-Type: application/json” -H “Accept: application/json” https:///licences  |
 | Example Response | ```  			{ 			  "head" : { 			    "vars" : [ "s", "o" ] 			  }, 			  "results" : { 			    "bindings" : [ { 			      "s" : { 			        "type" : "uri", 			        "value" : "http://ns.ausnc.org.au/corpora/cooee/items/1-001" 			      }, 			      "o" : { 			        "type" : "uri", 			        "value" : "http://ns.ausnc.org.au/corpora/cooee" 			      } 			    }, { 			      "s" : { 			        "type" : "uri", 			        "value" : "http://ns.ausnc.org.au/corpora/cooee/items/1-002" 			      }, 			      "o" : { 			        "type" : "uri", 			        "value" : "http://ns.ausnc.org.au/corpora/cooee" 			      } 			    }, { 			      "s" : { 			        "type" : "uri", 			        "value" : "http://ns.ausnc.org.au/corpora/cooee/items/1-003" 			      }, 			      "o" : { 			        "type" : "uri", 			        "value" : "http://ns.ausnc.org.au/corpora/cooee" 			      } 			    }] 			  } 			}      ``` |
 | Get licences | /licences | GET | List of licences in the system, their name and ID |  |
 | Example Response | ```  	[ 		{ 			"name":"Creative Commons", 			"id": 1 		}, 		{ 			"name":"AusNC Terms of Use", 			"id": 2 		}, 		{ 			"name":"Creative Commons V3", 			"id": 3 		} 	]  	 ``` |

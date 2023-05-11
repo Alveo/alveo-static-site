@@ -1,10 +1,8 @@
 ---
-id: 1773
 title: 'Report from SocioPhonAus 2016 Brisbane'
 date: '2016-07-13T00:35:30+10:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1773'
 permalink: /2016/07/13/report-from-sociophonaus-2016-brisbane/
 categories:
     - News
@@ -27,7 +25,7 @@ I tried to clarify the different ways that researchers can access Austalk:
 - The [new Austalk Website](http://bigasc.edu.au) (bigasc.edu.au) which was designed to hold information about the collection in the longer term and provide some access to data. Registered users of this site can browse the data by recording site, speaker and components and preview recordings in the browser.
 - [Alveo](https://app.alveo.edu.au/) is the long term platform to get access to data from Austalk, the resources of Alveo allow searching the metadata and downloading subsets of the data via the API. We are working to build better tools to make the data more easily available, for example the[ Austalk Query](http://austalk-query.apps.alveo.edu.au/) web tool.
 
-We also discussed making the [ANDSOL](http://andosl.rsise.anu.edu.au/andosl/) collection available through Alveo. ANDOSL is an earlier collection of Australian English collected in the 1990s and currently managed by the [Australasian Speech Science and Technology Association](http://assta.org) (ASSTA). We hope to be able to find the resources to ingest this collection in the near future. This would be a great resource for research on the changes of Australian English since along with the Mitchell and Delbridge collections this gives three snapshots taken over a fifty year period.
+We also discussed making the [ANDSOL](/andosl) collection available through Alveo. ANDOSL is an earlier collection of Australian English collected in the 1990s and currently managed by the [Australasian Speech Science and Technology Association](http://assta.org) (ASSTA). We hope to be able to find the resources to ingest this collection in the near future. This would be a great resource for research on the changes of Australian English since along with the Mitchell and Delbridge collections this gives three snapshots taken over a fifty year period.
 
 There was also a lot of discussion about the kinds of tools that would be useful for Alveo to support relating to speech data. I described our work on the Galaxy workflow engine and we discussed the kinds of tools that might be useful made available in this way. Examples were:
 

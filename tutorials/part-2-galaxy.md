@@ -1,13 +1,11 @@
 ---
-id: 1581
 title: 'Part 2: Galaxy'
 date: '2015-11-18T16:54:04+11:00'
 author: aidan
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1581'
 ---
 
-This is Part 2 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](http://alveo.edu.au/tutorials/ "Tutorials") page. This Part will cover the basics of Galaxy, including importing Alveo lists into Galaxy, and using histories.
+This is Part 2 of a four-part tutorial in using Alveo. You can find the outline of the tutorial, and links to the other three parts on the [Tutorials](/tutorials "Tutorials") page. This Part will cover the basics of Galaxy, including importing Alveo lists into Galaxy, and using histories.
 
 ## Introduction to Galaxy
 
@@ -19,7 +17,7 @@ This part of the tutorial involves using your Alveo data lists in Galaxy, and us
 
 ## Getting Access to Galaxy
 
-You can access Galaxy via the link at the top of the page in Alveo or via the URL <http://galaxy.alveo.edu.au/>.
+You can access Galaxy via the link at the top of the page in Alveo or via the URL .
 
 The first time you attempt to use Galaxy, you should create an account. This account is different from your account on Alveo. After you have given Galaxy an email address, a password and an account name, you will be logged in. You can do some things without an account, but if you want to keep track of your data and saved workflows, you will need to login.
 
@@ -29,11 +27,11 @@ Galaxy is a workbench for running tools over data; to do some work we need to ha
 
 The main way to get data from Alveo is to create an **Item List** on Alveo with the data you want to work with, then use the Alveo tools in Galaxy to get the data. The following video illustrates how to do this to get some audio files into Galaxy.
 
-<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/x6BRBULjrWQ" width="560"></iframe>
+
 
 There is also a special purpose tool that will query the Austalk collection to find the hVd words for a given speaker. This has been designed for a particular workflow (generating vowel plots) and is an example of the kind of special purpose tool that is relatively easy to make for Galaxy. The following video illustrates the use of this tool.
 
-<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/6Iq2HrgGhkw" width="560"></iframe>
+
 
 When Galaxy performs a task, it runs in the background, allowing you to do other things. It lets you know the progress with an entry in the history viewer, located in the right-hand sidebar.
 

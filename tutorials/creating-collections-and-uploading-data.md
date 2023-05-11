@@ -1,10 +1,8 @@
 ---
-id: 1646
 title: 'Creating Collections and Uploading Data'
 date: '2016-03-16T16:06:13+11:00'
 author: aidan
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1646'
 ---
 
 In addition to providing you with access to public, open access corpora and datasets, and conditional access corpora for you to search and analyse, Alveo also allows you to upload your own datasets and optionally make them available for other researchers to access.
@@ -19,7 +17,7 @@ If you don’t see the **Admin** option, then you have an ordinary user account 
 
 ## Uploading methods
 
-There are two ways to upload your own collections to Alveo: the first is by using the web interface, and the second is by using the Application Programmatic Interface (API). The API is more fully featured and powerful than the web interface, but it is for advanced users who have some background in using a command-line interface and scripting methods. This tutorial will only cover the simpler, but less feature-rich website interface method. For instructions on using the API method, please see the [Help Documentation](http://alveo.edu.au/alveo-help/http-api-reference/).
+There are two ways to upload your own collections to Alveo: the first is by using the web interface, and the second is by using the Application Programmatic Interface (API). The API is more fully featured and powerful than the web interface, but it is for advanced users who have some background in using a command-line interface and scripting methods. This tutorial will only cover the simpler, but less feature-rich website interface method. For instructions on using the API method, please see the [Help Documentation](/alveo-help/http-api-reference).
 
 ## Collections, Items and Documents
 
@@ -85,7 +83,7 @@ Repeat these steps as many times as you need to create Items in your collection 
 
 Metadata can be added to any Collection, Item or Document that you create or upload. Using the web interface, metadata can only be added at the time of creation or upload, but the API can be used to edit existing collections, items and documents. Alveo supports a number of standard schemas, and recognises a large number of metadata elements from these schemas. This tutorial will cover one of the most widely used standard metadata schemas: Dublin Core.
 
-Dublin Core (DC) is a metadata schema developed and maintained by the Dublin Core Metadata Initiative ([DCMI](http://dublincore.org/)). It is a small set of vocabulary terms that can be used to describe published web resources such as audio and video recordings, images, and text documents. As such, DC is highly suitable for describing the sorts of data that would be uploaded into Alveo. There are other supported schemas that may be more suitable for some types of data, such as the Open Language Archives Community ([OLAC](http://www.language-archives.org/)), but this tutorial will use Dublin Core as an example.
+Dublin Core (DC) is a metadata schema developed and maintained by the Dublin Core Metadata Initiative ([DCMI](/)). It is a small set of vocabulary terms that can be used to describe published web resources such as audio and video recordings, images, and text documents. As such, DC is highly suitable for describing the sorts of data that would be uploaded into Alveo. There are other supported schemas that may be more suitable for some types of data, such as the Open Language Archives Community ([OLAC](http://www.language-archives.org)), but this tutorial will use Dublin Core as an example.
 
 ### Namespaces
 
@@ -107,7 +105,7 @@ Repeat this for as many metadata elements that you wish to include, however make
 
 ![](/wp-content/uploads/2016/03/2016-05-03_09-33-41.png)
 
-The table below contains the full list of DC elements you can use for your data with a description of each from the [Dublin Core](http://dublincore.org/documents/dcmi-terms/) website.
+The table below contains the full list of DC elements you can use for your data with a description of each from the [Dublin Core](/documents/dcmi-terms) website.
 
 | **Element** | **Description** |
 |---|---|

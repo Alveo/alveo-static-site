@@ -1,10 +1,8 @@
 ---
-id: 1862
 title: 'Alveo data used in the Macquarie Dictionary podcast on pronunciation'
 date: '2017-09-13T07:37:14+10:00'
 author: 'Dominique Estival'
 layout: post
-guid: 'http://alveo.edu.au/?p=1862'
 permalink: /2017/09/13/alveo-data-used-in-the-macquarie-dictionary-podcast-on-pronunciation/
 categories:
     - News

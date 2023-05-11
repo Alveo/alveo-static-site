@@ -1,13 +1,11 @@
 ---
-id: 1725
 title: About
 date: '2012-12-11T01:56:04+11:00'
 author: 'Steve Cassidy'
 layout: page
-guid: 'http://marcs.uws.edu.au/hcsvlab/?page_id=2'
 ---
 
-This is the project website for Alveo: Above and Beyond Speech, Language and Music, A Virtual Lab for Human Communication Science, a project funded by [NeCTAR](http://www.nectar.org.au) (National eResearch Collaboration Tools and Resources). [View the project proposal](http://alveowp.apps.alveo.edu.au/about/project-proposal/).
+This is the project website for Alveo: Above and Beyond Speech, Language and Music, A Virtual Lab for Human Communication Science, a project funded by [NeCTAR](http://www.nectar.org.au) (National eResearch Collaboration Tools and Resources). [View the project proposal](/about/project-proposal).
 
 ## Project background
 
@@ -25,4 +23,47 @@ Alveo is:
 
 Alveo creates the avenue by which HCS research can make a quantitative and qualitative leap to enhanced capability, collaboration and output, to travel well beyond the geographical confines of individual labs, and well above the disciplinary confines of speech, language, music, or sonics alone into an interdisciplinary and heuristic Human Communication Science cloud-space.
 
-<div class="row brand-logos d-flex align-items-center hidden-xs"><div class="col-sm-6 col-md-3">![UWS](/wp-content/themes/hcsvlab/img/logos/UWS_Logo.png)</div><div class="col-sm-6 col-md-3">![MQ](/wp-content/themes/hcsvlab/img/logos/MQ_Logo.png)</div><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/RMIT_Logo.png)</div><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/UoM_Logo.png)</div></div><div class="row brand-logos d-flex align-items-center"><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/ANU_Logo.png)</div><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/UWA_Logo.png)</div><div class="col-sm-6 col-md-3">![UOS](/wp-content/themes/hcsvlab/img/logos/USY_Logo.png)</div><div class="col-sm-6 col-md-3">![MQ](/wp-content/themes/hcsvlab/img/logos/UNE_Logo.png)</div></div><div class="row brand-logos d-flex align-items-center"><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/UoC_Logo.png)</div><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/FU_Logo.png)</div><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/UNSW_Logo.png)</div><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/UoLT_Logo.png)</div></div><div class="row brand-logos d-flex align-items-center"><div class="col-sm-6 col-md-3">![UTAS](/wp-content/themes/hcsvlab/img/logos/UTAS_Logo.png)</div><div class="col-sm-6 col-md-3">![MQ](/wp-content/themes/hcsvlab/img/logos/ASSTA_Logo.png)</div><div class="col-sm-6 col-md-3">![AUSNC](/wp-content/themes/hcsvlab/img/logos/AUSNC_Logo.png)</div><div class="col-sm-6 col-md-3">![NICTA](/wp-content/themes/hcsvlab/img/logos/NICTA_Logo.png)</div></div><div class="row brand-logos d-flex align-items-center"><div class="col-sm-6 col-md-3">![Nectar](/wp-content/themes/hcsvlab/img/logos/Intersect_Logo.png)</div></div>
+![UWS](/wp-content/themes/hcsvlab/img/logos/UWS_Logo.png)
+
+![MQ](/wp-content/themes/hcsvlab/img/logos/MQ_Logo.png)
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/RMIT_Logo.png)
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/UoM_Logo.png)
+
+
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/ANU_Logo.png)
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/UWA_Logo.png)
+
+![UOS](/wp-content/themes/hcsvlab/img/logos/USY_Logo.png)
+
+![MQ](/wp-content/themes/hcsvlab/img/logos/UNE_Logo.png)
+
+
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/UoC_Logo.png)
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/FU_Logo.png)
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/UNSW_Logo.png)
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/UoLT_Logo.png)
+
+
+
+![UTAS](/wp-content/themes/hcsvlab/img/logos/UTAS_Logo.png)
+
+![MQ](/wp-content/themes/hcsvlab/img/logos/ASSTA_Logo.png)
+
+![AUSNC](/wp-content/themes/hcsvlab/img/logos/AUSNC_Logo.png)
+
+![NICTA](/wp-content/themes/hcsvlab/img/logos/NICTA_Logo.png)
+
+
+
+![Nectar](/wp-content/themes/hcsvlab/img/logos/Intersect_Logo.png)
+
+
+

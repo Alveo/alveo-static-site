@@ -1,10 +1,8 @@
 ---
-id: 565
 title: Links
 date: '2014-03-12T17:25:25+11:00'
 author: 'Dominique Estival'
 layout: page
-guid: 'http://hcsvlab.org.au/?page_id=565'
 ---
 
 ### [NeCTAR](http://nectar.org.au "NeCTAR")

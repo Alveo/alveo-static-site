@@ -1,10 +1,8 @@
 ---
-id: 1826
 title: 'Alveo Server Outage'
 date: '2016-10-31T18:20:18+11:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1826'
 permalink: /2016/10/31/alveo-server-outage/
 categories:
     - Administrative

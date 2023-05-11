@@ -1,17 +1,15 @@
 ---
-id: 1883
 title: 'Create a Collection'
 date: '2017-11-23T00:50:06+11:00'
 author: 'Steve Cassidy'
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1883'
 ---
 
 In addition to providing you with access to public, open access corpora and datasets, and conditional access corpora for you to search and analyse, Alveo also allows you to upload your own datasets and optionally make them available for other researchers to access.
 
 ## Obtaining access
 
-In order to be able to create collections, you must be a *Data Owner* rather than an ordinary user. If you want to request data owner status, look at the bottom of the [main collections page](https://app.alveo.edu.au/) once you are logged in, you should see the following button:![screen shot of button to request data owner status](http://alveo.edu.au/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-8.43.45-am-1024x164.png)
+In order to be able to create collections, you must be a *Data Owner* rather than an ordinary user. If you want to request data owner status, look at the bottom of the [main collections page](https://app.alveo.edu.au/) once you are logged in, you should see the following button:![screen shot of button to request data owner status](assets/files/2017/12/Screen-Shot-2017-12-05-at-8.43.45-am-1024x164.png)
 
 Clicking on this button will take you to a form where you can request this change in status. You should include a little information about your collection: when and how you collected it, what sort of data it contains, what sort of data structure it has, and how large it is. The administration team may then have further questions for you, or may simply grant your request.
 
@@ -21,7 +19,7 @@ Once you have Data Owner status, the button will change to say “Create a Colle
 
 There are two ways to upload your own collections to Alveo: the first is by using the web interface to upload your files as a zip file, and the second is by using the Application Programmatic Interface (API).
 
-The API is more fully featured and powerful than the web interface, but it is for advanced users who have some background in using a command-line interface and scripting methods. It would be more suitable for uploading larger collections with rich metadata. For details, see the [API documentation](http://alveo.edu.au/help/http-api-reference/) and [this blog post](http://alveo.edu.au/2016/08/19/uploading-data-to-alveo/) that describes a sample upload script.
+The API is more fully featured and powerful than the web interface, but it is for advanced users who have some background in using a command-line interface and scripting methods. It would be more suitable for uploading larger collections with rich metadata. For details, see the [API documentation](http://alveo.edu.au/help/http-api-reference/) and [this blog post](/2016/08/19/uploading-data-to-alveo) that describes a sample upload script.
 
 The Alveo website allows data owners to upload new items to a collection either individually or in bulk as a zip file. This method is suitable for small to medium sized collections.
 

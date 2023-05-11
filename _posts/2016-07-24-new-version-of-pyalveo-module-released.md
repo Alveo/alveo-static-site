@@ -1,10 +1,8 @@
 ---
-id: 1784
 title: 'New Version of Pyalveo Module Released'
 date: '2016-07-24T23:11:08+10:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1784'
 permalink: /2016/07/24/new-version-of-pyalveo-module-released/
 categories:
     - News

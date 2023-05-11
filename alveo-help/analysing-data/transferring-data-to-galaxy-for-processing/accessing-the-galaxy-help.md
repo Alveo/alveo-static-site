@@ -1,17 +1,15 @@
 ---
-id: 1039
 title: 'Accessing the Galaxy Help'
 date: '2014-08-01T09:36:04+10:00'
 author: peterr
 layout: page
-guid: 'http://alveo.edu.au/?page_id=1039'
 ---
 
 ##  **Galaxy Help System**
 
 Galaxy has its own Help system, which is accessed from the Galaxy Navigation Bar.
 
-![GalaxyHelp](http://bigasc.science.mq.edu.au/wp-content/uploads/2014/08/GalaxyHelp.png)
+![GalaxyHelp](assets/files/2014/08/GalaxyHelp.png)
 
 ## **Galaxy Wiki Learning Resource**
 

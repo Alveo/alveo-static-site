@@ -1,10 +1,8 @@
 ---
-id: 1843
 title: 'AusTalk Updates'
 date: '2017-05-23T06:33:12+10:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1843'
 permalink: /2017/05/23/austalk-updates/
 categories:
     - Administrative

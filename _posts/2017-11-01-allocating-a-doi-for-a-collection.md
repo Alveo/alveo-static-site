@@ -1,10 +1,8 @@
 ---
-id: 1876
 title: 'Allocating a DOI for a Collection'
 date: '2017-11-01T03:25:37+11:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1876'
 permalink: /2017/11/01/allocating-a-doi-for-a-collection/
 categories:
     - News

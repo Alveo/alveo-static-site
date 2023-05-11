@@ -1,10 +1,8 @@
 ---
-id: 660
 title: 'Alveo Hackfest'
 date: '2014-06-17T16:59:13+10:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://hcsvlab.org.au/?p=660'
 permalink: /2014/06/17/alveo-hackfest/
 categories:
     - News

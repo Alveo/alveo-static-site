@@ -1,10 +1,8 @@
 ---
-id: 1836
 title: 'Alveo Services Restored'
 date: '2016-12-10T00:22:38+11:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://alveo.edu.au/?p=1836'
 permalink: /2016/12/10/alveo-services-restored/
 categories:
     - Administrative

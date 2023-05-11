@@ -1,10 +1,8 @@
 ---
-id: 140
 title: 'Q &#038; A after demo of the HCS vLab at the Annual meeting of the Australian Linguistics Society (ALS) 2013'
 date: '2013-10-16T13:51:01+11:00'
 author: 'Steve Cassidy'
 layout: post
-guid: 'http://ic2-hcsvlab-galaxy-qa-vm.intersect.org.au/?p=140'
 permalink: /2013/10/16/q-and-a-after-demo-of-the-hcs-vlab/
 categories:
     - FAQ
@@ -50,7 +48,7 @@ This page presents the answers to questions raised during the presentation on th
 
  9) Is there a vLab FAQ page we can add the questions and their answers.
 
- Answer: [There is now!](http://hcsvlab.org.au/faq-2/ "FAQ") We will add to it as more questions come in.
+ Answer: [There is now!](/faq-2 "FAQ") We will add to it as more questions come in.
 
  10) Is there an HCS vLab mailing list?
 

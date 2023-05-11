@@ -1,10 +1,8 @@
 ---
-id: 1776
 title: 'Alveo Workshop &#8211; Perth, June 2016'
 date: '2016-07-13T06:52:37+10:00'
 author: 'Dominique Estival'
 layout: post
-guid: 'http://alveo.edu.au/?p=1776'
 permalink: /2016/07/13/alveo-workshop-perth-june-2016/
 categories:
     - News
