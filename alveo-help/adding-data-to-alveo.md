@@ -2,7 +2,7 @@
 title: 'Adding Data to Alveo'
 date: '2017-12-05T05:26:27+11:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 Alveo is a repository for research data for the community and we hope that you will contribute your data as well as making use of the data we already hold. There are three ways that you can share data with others through Alveo:

@@ -2,7 +2,7 @@
 title: 'Analysing Data'
 date: '2014-07-29T18:40:50+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 For instructions on **creating Item Lists**, see [Saving Your Search Results to an Item List](/alveo-help/discovering-and-searching-the-collections/saving-your-search-results-to-an-item-list "Saving Your Search Results to an Item List").

@@ -2,7 +2,7 @@
 title: 'Using Alveo Data with EMU/R'
 date: '2014-08-01T18:09:32+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 EMU is a speech processing package which runs in the free R statistical computing and graphics environment. (See the [Alveo HELP](/alveo-help "Alveo Help") page for more background on EMU/R and and the R environment.)

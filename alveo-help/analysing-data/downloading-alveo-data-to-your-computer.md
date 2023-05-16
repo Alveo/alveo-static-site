@@ -2,7 +2,7 @@
 title: 'Downloading Alveo Data to Your Computer'
 date: '2014-08-05T12:30:08+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 You can download all of the data in an Item List to your computer as a Bagit ZIP file.

@@ -2,7 +2,7 @@
 title: 'Getting Started with Galaxy'
 date: '2014-08-01T12:00:05+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 ## **The Galaxy Screen**

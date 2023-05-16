@@ -2,7 +2,7 @@
 title: 'Updating Your Account Details'
 date: '2014-08-05T16:31:23+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Alveo provides only limited functions for updating your account details.

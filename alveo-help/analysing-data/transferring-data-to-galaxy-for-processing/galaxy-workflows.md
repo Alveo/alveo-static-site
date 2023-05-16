@@ -2,7 +2,7 @@
 title: 'Galaxy Workflows'
 date: '2014-08-12T13:44:48+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Galaxy offers this very powerful tool for chaining together the processing of multiple tools to run in a single background operation. Workflows are very powerful, so creating and configuring them is necessarily not trivial.

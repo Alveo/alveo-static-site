@@ -2,7 +2,7 @@
 title: 'Uploading Data Files from Your Computer'
 date: '2014-08-12T19:05:12+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Data files can be directly uploaded into Galaxy / Alveo from your computer. They are then usable in the same way as data files imported from the Alveo Collections.

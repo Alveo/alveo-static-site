@@ -2,7 +2,7 @@
 title: 'Discovering and Searching the Collections'
 date: '2014-07-29T15:07:56+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Alveo provides smart methods for you to find data appropriate to your needs. Click on the Links below for more information.

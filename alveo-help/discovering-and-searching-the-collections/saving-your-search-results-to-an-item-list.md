@@ -2,7 +2,7 @@
 title: 'Saving Your Search Results to an Item List'
 date: '2014-07-29T18:09:37+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Once you have the list of Items you require, you can save this list as a named Item List which can become the basis for further research. For example, you might go on to do a concordance search within your Item List or send your Item List for analysis using Galaxy / Alveo or Emu/R.

@@ -2,7 +2,7 @@
 title: 'What’s an API Key?'
 date: '2014-07-18T12:07:20+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Because the API Key acts like a password, you are advised against allowing others to use your API Key.

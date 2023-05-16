@@ -2,7 +2,7 @@
 title: 'Accessing Galaxy on Alveo'
 date: '2014-07-18T11:55:16+10:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 Galaxy is used for some Alveo data analysis functions. For these functions to work, you will need a Galaxy / Alveo account, which can be created easily the first time you attempt to use Galaxy from Alveo. It can also be done in advance by directly entering the Galaxy / Alveo URL, as explained here.

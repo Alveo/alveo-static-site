@@ -2,7 +2,7 @@
 title: 'HTTP API Reference'
 date: '2014-08-29T12:24:32+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 The Alveo API provides access to resources from the Alveo platform in a machine readable format (JSON). At present the API supports retrieving Item Lists, Items, Documents and Collection level metadata; it does not support creating Item Lists. It is assumed that a user will create an Item List via the Web Application and then can write code to access the Item List and individual Items for processing.

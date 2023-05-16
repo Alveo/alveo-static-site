@@ -2,12 +2,10 @@
 title: 'Alveo Documentation'
 date: '2014-07-11T12:41:06+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 The name “Alveo” is derived from the Latin noun “[Alveus](http://en.wiktionary.org/wiki/alveus)” which is one of the Latin words for “beehive” (Latin synonyms are “[alvārium](http://en.wiktionary.org/wiki/alvarium)”, “[alveārium](http://en.wiktionary.org/wiki/alvearium)”, “[alvus](http://en.wiktionary.org/wiki/alvus)” some of which strangely also have the meaning of “river bed”). “Alveo” is both the Dative and Ablative cases of this noun. This continues the tradition of naming projects which have been funded by [NeCTAR](https://nectar.org.au/home "NeCTAR") with words which loosely relate to bees and honey.
-
-
 
 Alveo is a **web-based data discovery application** for examining collections of **human communication data**. It can be accessed using any web browser.
 

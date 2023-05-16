@@ -2,7 +2,7 @@
 title: 'Concordance and Word Frequency'
 date: '2014-07-30T15:28:20+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Alveo provides two functions to help you investigate word frequency and context in all of the text documents of your currently displayed Item List.

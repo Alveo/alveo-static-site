@@ -2,7 +2,7 @@
 title: 'Uploading Data to a Collection'
 date: '2017-11-23T00:54:50+11:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 If you are a Data Owner, once you have created a collection you can proceed to add items and documents to your collection. A convenient way to do this is to upload a zip file containing your documents. You can do this by going to the main page for your collection and clicking on “Import Zip”.

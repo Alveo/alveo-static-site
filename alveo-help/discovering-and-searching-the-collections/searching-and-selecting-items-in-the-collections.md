@@ -2,7 +2,7 @@
 title: 'Searching and Selecting Items in the Collections'
 date: '2014-07-29T15:17:33+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 The **Discover** operation screen provides a method of finding Items in the Collections which suit your research purposes. It follows a “Facet search” model which is widely used across the Internet.

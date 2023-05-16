@@ -2,7 +2,7 @@
 title: 'Getting Access to Alveo and Galaxy'
 date: '2014-07-18T11:54:04+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 There are four aspects to accessing to Alveo.

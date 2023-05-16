@@ -2,7 +2,7 @@
 title: 'Viewing and Sharing Item Lists'
 date: '2014-07-29T18:42:16+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 New Item Lists can be created by clicking **Discover** in the Navigation Bar and using the Searching functions. See [Searching and Selecting Items in the Collections](/alveo-help/discovering-and-searching-the-collections/searching-and-selecting-items-in-the-collections "Searching and Selecting Items in the Collections").

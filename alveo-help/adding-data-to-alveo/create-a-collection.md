@@ -2,7 +2,7 @@
 title: 'Create a Collection'
 date: '2017-11-23T00:50:06+11:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 In addition to providing you with access to public, open access corpora and datasets, and conditional access corpora for you to search and analyse, Alveo also allows you to upload your own datasets and optionally make them available for other researchers to access.

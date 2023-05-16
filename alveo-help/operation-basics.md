@@ -2,7 +2,7 @@
 title: 'Operation Basics'
 date: '2014-07-29T14:19:16+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 ## **The Main Screen**

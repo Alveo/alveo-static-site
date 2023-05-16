@@ -2,7 +2,7 @@
 title: 'Browsing the Collections'
 date: '2014-07-29T15:12:15+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 To see a list of all of the Collections available in Alveo, click on **Collections** in the Alveo Navigation Bar.

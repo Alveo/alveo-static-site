@@ -2,7 +2,7 @@
 title: 'Annotation Contributions'
 date: '2017-11-23T00:57:54+11:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 An **Annotation Contribution** is an uploaded set of annotations or other value added files that will be associated with an existing collection. Any user is able to upload a contribution that will be made available to all users who have access to the original collection.

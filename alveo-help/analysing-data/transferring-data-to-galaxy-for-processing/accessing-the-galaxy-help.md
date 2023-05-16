@@ -2,7 +2,7 @@
 title: 'Accessing the Galaxy Help'
 date: '2014-08-01T09:36:04+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 ##  **Galaxy Help System**

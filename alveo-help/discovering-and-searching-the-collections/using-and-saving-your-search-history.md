@@ -2,7 +2,7 @@
 title: 'Using and Saving Your Search History'
 date: '2014-08-05T15:10:17+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 Every time you search for Items using the Discover tab on the Navigation Bar, Alveo records the search parameters you have used. It does not store the search results, just the search parameters. (You save the search results by using Item Lists – see [Saving Your Search Results to an Item List](/alveo-help/discovering-and-searching-the-collections/saving-your-search-results-to-an-item-list).)

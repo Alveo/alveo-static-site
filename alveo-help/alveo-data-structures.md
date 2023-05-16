@@ -2,7 +2,7 @@
 title: 'Alveo Data Structures'
 date: '2014-07-18T12:29:44+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 ## **Three-level hierarchy**

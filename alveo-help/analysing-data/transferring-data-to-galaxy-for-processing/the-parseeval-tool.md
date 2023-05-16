@@ -2,7 +2,7 @@
 title: 'The ParseEval Tool'
 date: '2014-08-01T17:37:18+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 ParseEvaL is a tool developed by Dr. Jason A. Shaw of the University of Western Sydney and Prof. Adamantios I. Gafos of the University of Potsdam.

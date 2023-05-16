@@ -2,7 +2,7 @@
 title: 'Accessing Alveo'
 date: '2014-07-18T11:54:31+10:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 There are two methods of getting access to the Alveo Web Service…

@@ -2,7 +2,7 @@
 title: 'Reporting an Alveo Issue'
 date: '2014-08-05T16:54:03+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 If you discover some aspect of Alveo that does not operate correctly and you wish to report it to the Alveo development team, you are requested to use this method, which is provided in the Alveo web application.

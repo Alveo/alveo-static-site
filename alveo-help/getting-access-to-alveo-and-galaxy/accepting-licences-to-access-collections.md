@@ -2,7 +2,7 @@
 title: 'Accepting Licences to Access Collections'
 date: '2014-07-18T11:55:46+10:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 A link to the ***Alveo Review and Acceptance of Licence Terms*** dialog also appears in a blue “Welcome!” box for some seconds each time you display the **Discover** tab.

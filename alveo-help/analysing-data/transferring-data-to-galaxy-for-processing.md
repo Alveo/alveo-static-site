@@ -2,7 +2,7 @@
 title: 'Transferring Data to Galaxy for Processing'
 date: '2014-07-30T16:15:19+10:00'
 author: peterr
-layout: page
+layout: help
 ---
 
 ## **Launching Galaxy / Alveo**

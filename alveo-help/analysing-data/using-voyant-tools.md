@@ -2,7 +2,7 @@
 title: 'Using Voyant Tools'
 date: '2018-11-16T13:58:19+11:00'
 author: 'Steve Cassidy'
-layout: page
+layout: help
 ---
 
 [Voyant](http://docs.voyant-tools.org/) is a web based text analysis platform. Data uploaded to a Voyant Tools server can be analysed and visualised in a number of different ways to provide insight into the texts. While it is possible to upload data to a public Voyant Tools instance for analysis, the data then becomes public by default (although there are ways to protect it) and you are creating yet another copy of your dataset that needs to be managed.
